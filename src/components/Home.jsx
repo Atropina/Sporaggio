@@ -184,8 +184,8 @@ const JoinRoomForm = memo(({ onSubmit }) => {
         </div>
       </div>
       
-      <div className="mt-4">
-        <SubmitButton icon={FaDoorOpen}>
+      <div className="mt-4" style={{ marginTop: '35.2px' }}>
+        <SubmitButton  icon={FaDoorOpen}>
           Entrar na Sala
         </SubmitButton>
       </div>
