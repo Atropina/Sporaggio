@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Você pode adicionar estilos customizados aqui, se necessário */
+body {
+  background-color: pink;
+}
+
+/* Estilos para efeito 3D das cartas */
+.perspective-500 {
+  perspective: 500px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.card-3d-wrapper {
+  transform-style: preserve-3d;
+}
